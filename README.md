@@ -1,4 +1,4 @@
-# Corona Update Tracker
+# Corona Update Tracker in India
 A mini project made using C which tracks the number of patients infected by corona in different states of india. Programmed by Sanjai M, Indra Shekar G, Manoj S and Gowtham
 from CSE-G1 PSG College of Technology, Coimbatore
 
