@@ -1,1 +1,241 @@
 
+
+#include <stdio.h>
+#include<string.h>
+int main(){
+    char state[100];
+    printf("--------------Corona Update In India---------------\n");
+    printf("Source:www.mygov.in/covid-19 , Last Updated:19June2020,08:00,IST(GMT+5:30)\n");
+    printf("Brought to you by Indra,Sanjai,Manoj,Gowtham\n");
+    printf("Total number of Active cases in India: 163248\n");
+    printf("Total number of Recovered cases in India: 204710\n");
+    printf("Total number of Deaths in India: 12573\n");
+    printf("Enter the State Name in small letters:\n");
+    gets(state);
+    if(strcmp(state,"maharashtra")==0){
+        printf("Total number of Confirmed cases: 120504\n");
+        printf("Total number of Active cases: 53915\n");
+        printf("Total number of Recovered cases: 60838\n");
+        printf("Total number of Deaths: 5751\n");
+    }
+    else if(strcmp(state,"tamil nadu")==0){
+        printf("Total number of Confirmed cases: 52334\n");
+        printf("Total number of Active cases: 23068\n");
+        printf("Total number of Recovered cases: 28641\n");
+        printf("Total number of Deaths: 625\n");
+    }
+    else if(strcmp(state,"delhi")==0){
+        printf("Total number of Confirmed cases: 49979\n");
+        printf("Total number of Active cases: 26669\n");
+        printf("Total number of Recovered cases: 21341\n");
+        printf("Total number of Deaths: 1969\n");
+    }
+    else if(strcmp(state,"gujarat")==0){
+        printf("Total number of Confirmed cases: 25601\n");
+        printf("Total number of Active cases: 6191\n");
+        printf("Total number of Recovered cases: 17819\n");
+        printf("Total number of Deaths: 1591\n");
+    }
+    else if(strcmp(state,"uttar Pradesh")==0){
+        printf("Total number of Confirmed cases: 15181\n");
+        printf("Total number of Active cases: 5477\n");
+        printf("Total number of Recovered cases: 9239\n");
+        printf("Total number of Deaths: 465\n");
+    }
+     else if(strcmp(state,"rajasthan")==0){
+        printf("Total number of Confirmed cases: 13857\n");
+        printf("Total number of Active cases: 2792\n");
+        printf("Total number of Recovered cases: 10742\n");
+        printf("Total number of Deaths: 323\n");
+    }
+    else if(strcmp(state,"west bengal")==0){
+        printf("Total number of Confirmed cases: 12735\n");
+        printf("Total number of Active cases: 5216\n");
+        printf("Total number of Recovered cases: 7001\n");
+        printf("Total number of Deaths: 518\n");
+    }
+    else if(strcmp(state,"madhya pradesh")==0){
+        printf("Total number of Confirmed cases: 11426\n");
+        printf("Total number of Active cases: 2308\n");
+        printf("Total number of Recovered cases: 8632\n");
+        printf("Total number of Deaths: 486\n");
+    }
+    else if(strcmp(state,"haryana")==0){
+        printf("Total number of Confirmed cases: 9218\n");
+        printf("Total number of Active cases: 4528\n");
+        printf("Total number of Recovered cases: 4556\n");
+        printf("Total number of Deaths: 134\n");
+    }
+    else if(strcmp(state,"karnataka")==0){
+        printf("Total number of Confirmed cases: 7944\n");
+        printf("Total number of Active cases: 2847\n");
+        printf("Total number of Recovered cases: 4983\n");
+        printf("Total number of Deaths: 114\n");
+    }
+    else if(strcmp(state,"andhra pradesh")==0){
+        printf("Total number of Confirmed cases: 7518\n");
+        printf("Total number of Active cases: 3637\n");
+        printf("Total number of Recovered cases: 3789\n");
+        printf("Total number of Deaths: 92\n");
+    }
+    else if(strcmp(state,"bihar")==0){
+        printf("Total number of Confirmed cases: 7025\n");
+        printf("Total number of Active cases: 1925\n");
+        printf("Total number of Recovered cases: 5056\n");
+        printf("Total number of Deaths: 44\n");
+    }
+    else if(strcmp(state,"telengana")==0){
+        printf("Total number of Confirmed cases: 6027\n");
+        printf("Total number of Active cases: 2531\n");
+        printf("Total number of Recovered cases: 3301\n");
+        printf("Total number of Deaths: 195\n");
+    }
+    else if(strcmp(state,"jammu and kashmir")==0){
+        printf("Total number of Confirmed cases: 5555\n");
+        printf("Total number of Active cases: 2340\n");
+        printf("Total number of Recovered cases: 3144\n");
+        printf("Total number of Deaths: 71\n");
+    }
+    else if(strcmp(state,"assam")==0){
+        printf("Total number of Confirmed cases: 4777\n");
+        printf("Total number of Active cases: 2114\n");
+        printf("Total number of Recovered cases: 2654\n");
+        printf("Total number of Deaths: 9\n");
+    }
+    else if(strcmp(state,"odisha")==0){
+        printf("Total number of Confirmed cases: 4512\n");
+        printf("Total number of Active cases: 1357\n");
+        printf("Total number of Recovered cases: 3144\n");
+        printf("Total number of Deaths: 11\n");
+    }
+    else if(strcmp(state,"punjab")==0){
+        printf("Total number of Confirmed cases: 3615\n");
+        printf("Total number of Active cases: 962\n");
+        printf("Total number of Recovered cases: 2570\n");
+        printf("Total number of Deaths: 83\n");
+    }
+    else if(strcmp(state,"kerala")==0){
+        printf("Total number of Confirmed cases: 2794\n");
+        printf("Total number of Active cases: 1358\n");
+        printf("Total number of Recovered cases: 1415\n");
+        printf("Total number of Deaths: 21\n");
+    }
+    else if(strcmp(state,"uttarakhand")==0){
+        printf("Total number of Confirmed cases: 2102\n");
+        printf("Total number of Active cases: 690\n");
+        printf("Total number of Recovered cases: 1386\n");
+        printf("Total number of Deaths: 26\n");
+    }
+    else if(strcmp(state,"chhattisgarh")==0){
+        printf("Total number of Confirmed cases: 1946\n");
+        printf("Total number of Active cases: 708\n");
+        printf("Total number of Recovered cases: 1228\n");
+        printf("Total number of Deaths: 10\n");
+    }
+    else if(strcmp(state,"jharkhand")==0){
+        printf("Total number of Confirmed cases: 1920\n");
+        printf("Total number of Active cases: 711\n");
+        printf("Total number of Recovered cases: 1198\n");
+        printf("Total number of Deaths: 11\n");
+    }
+    else if(strcmp(state,"tripura")==0){
+        printf("Total number of Confirmed cases: 1155\n");
+        printf("Total number of Active cases: 515\n");
+        printf("Total number of Recovered cases: 639\n");
+        printf("Total number of Deaths: 1\n");
+    }
+    else if(strcmp(state,"goa")==0){
+        printf("Total number of Confirmed cases: 705\n");
+        printf("Total number of Active cases: 596\n");
+        printf("Total number of Recovered cases: 109\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"ladakh")==0){
+        printf("Total number of Confirmed cases: 687\n");
+        printf("Total number of Active cases: 591\n");
+        printf("Total number of Recovered cases: 95\n");
+        printf("Total number of Deaths: 1\n");
+    }
+    else if(strcmp(state,"manipur")==0){
+        printf("Total number of Confirmed cases: 606\n");
+        printf("Total number of Active cases: 407\n");
+        printf("Total number of Recovered cases: 199\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"himachal pradesh")==0){
+        printf("Total number of Confirmed cases: 595\n");
+        printf("Total number of Active cases: 205\n");
+        printf("Total number of Recovered cases: 382\n");
+        printf("Total number of Deaths: 8\n");
+    }
+    else if(strcmp(state,"chandigarh")==0){
+        printf("Total number of Confirmed cases: 374\n");
+        printf("Total number of Active cases: 62\n");
+        printf("Total number of Recovered cases: 306\n");
+        printf("Total number of Deaths: 6\n");
+    }
+    else if(strcmp(state,"puducherry")==0){
+        printf("Total number of Confirmed cases: 271\n");
+        printf("Total number of Active cases: 155\n");
+        printf("Total number of Recovered cases: 109\n");
+        printf("Total number of Deaths: 7\n");
+    }
+    else if(strcmp(state,"nagaland")==0){
+        printf("Total number of Confirmed cases: 193\n");
+        printf("Total number of Active cases: 90\n");
+        printf("Total number of Recovered cases: 103\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"mizoram")==0){
+        printf("Total number of Confirmed cases: 130\n");
+        printf("Total number of Active cases: 129\n");
+        printf("Total number of Recovered cases: 1\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"arunachal pradesh")==0){
+        printf("Total number of Confirmed cases: 103\n");
+        printf("Total number of Active cases: 93\n");
+        printf("Total number of Recovered cases: 10\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"sikkim")==0){
+        printf("Total number of Confirmed cases: 70\n");
+        printf("Total number of Active cases: 65\n");
+        printf("Total number of Recovered cases: 5\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"dadra and nagar haveli")==0){
+        printf("Total number of Confirmed cases: 58\n");
+        printf("Total number of Active cases: 45\n");
+        printf("Total number of Recovered cases: 13\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"andaman and nicobar")==0){
+        printf("Total number of Confirmed cases: 44\n");
+        printf("Total number of Active cases: 11\n");
+        printf("Total number of Recovered cases: 33\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"meghalaya")==0){
+        printf("Total number of Confirmed cases: 44\n");
+        printf("Total number of Active cases: 13\n");
+        printf("Total number of Recovered cases: 30\n");
+        printf("Total number of Deaths: 1\n");
+    }
+    else if(strcmp(state,"daman and diu")==0){
+        printf("Total number of Confirmed cases: 0\n");
+        printf("Total number of Active cases: 0\n");
+        printf("Total number of Recovered cases: 0\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else if(strcmp(state,"lakshadweep")==0){
+        printf("Total number of Confirmed cases: 0\n");
+        printf("Total number of Active cases: 0\n");
+        printf("Total number of Recovered cases: 0\n");
+        printf("Total number of Deaths: 0\n");
+    }
+    else{
+        printf("Please check if all spellings are correct and are not in caps");
+    }
+    return 0;
+}
