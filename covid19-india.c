@@ -1,3 +1,5 @@
+//TEAM-10
+// C-Mini Project(Corona Update Tracker)
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
